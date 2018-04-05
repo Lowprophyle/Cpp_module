@@ -1,0 +1,32 @@
+31: 
+30: }
+29:     return 0;
+28:     in.close();
+27:     out.close();
+26:     }
+25:         out << i << ": " << vec[i] << endl;
+24:     {
+23:     for (int i = vec.size()-1; i >= 0; i--)
+22: 
+21:         cout << i << ": " << vec[i] << endl;
+20:     for (int i = 0; i < vec.size(); i++)
+19:     // Add line numbers:
+18: 
+17:         vec.push_back(line); // Add the line to the end
+16:     while (getline(in, line))
+15:     string line;
+14: 
+13:     ofstream out("out.txt");
+12:     ifstream in("Q1.cpp");
+11: 
+10:     vector<string> vec;
+9: {
+8: int main()
+7: 
+6: using namespace std;
+5: #include <vector>
+4: #include <fstream>
+3: #include <iostream>
+2: #include <string>
+1: // Copy an entire file into a vector of string
+0: //: Q1.cpp

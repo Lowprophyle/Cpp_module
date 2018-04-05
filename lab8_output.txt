@@ -1,0 +1,28 @@
+EXERCISE 1 
+declare type string varMeow
+Meow
+EXERCISE 2 
+1 2 3 6 12 32 2 5 9 12 
+array iterator | equivalent to pointer | if use * on iterator
+it will get the object location. Use ++ on the iterator to move
+it to the next entry.
+Get the inital iterator for the container by calling begin() on
+the container object and storing the result. and compare the
+current position against end() to check for reaching the end of
+container
+1 2 3 6 12 32 2 5 9 12 
+EXERCISE 3   -    Algorithm
+sort the array using iterator
+Sort the array
+
+1 2 2 3 5 6 9 12 12 32 
+32 12 12 9 6 5 3 2 2 1 
+EXERCISE 4 -     Testing other container classes
+Contents of vector
+1 2 2 3 5 6 9 12 12 32 
+Contents of vector
+1 2 2 3 5 1000 6 9 12 12 32 
+EXERCISE 5 -     LIST CONTAINER
+z m down up 
+down m up z 
+down Test-string second-testing m up z 
